@@ -13,6 +13,10 @@ body {
 font-family: 'Quicksand', sans-serif;
 }
 
+.rubik {
+  font-family: 'Rubik';
+}
+
 .osh {
   font-family: 'Open Sans Hebrew', cursive;
 
@@ -748,4 +752,51 @@ top:0px;
 
 .bb-1 {
   border-bottom: 1px solid #e4e4e4;
+}
+
+
+.bg-blue-juls {
+  background: #d9e9ea !important;
+}
+
+.text-color-juls-blue {
+  color: #889899 !important;
+}
+
+
+.homepage_bg_height_fix {
+  height: 670px;
+}
+
+
+@media (min-width: 1000px) {
+.p-r-desktop-50 {
+  padding-right: 50px;
+}
+
+}
+
+
+@media (max-width: 767px) {
+.imageblock > .container, .imageblock > div[class*='col-']:not(.imageblock__content) {
+    padding-top: 1.57142857em;
+    padding-bottom: 1.57142857em;
+    float: none;
+    overflow: hidden;
+}
+
+.homepage_bg_height_fix {
+  height: 370px;
+}
+
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.position-promo {
+  position: absolute;
+  bottom: -15px;
+  left: 15px;
 }
