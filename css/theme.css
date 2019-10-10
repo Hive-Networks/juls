@@ -3515,12 +3515,7 @@ footer.space-bottom--sm {
     padding: 8.35714286em 0;
   }
 }
-div[class*='col-'] > div[class*='col-']:first-child {
-  padding-left: 0;
-}
-div[class*='col-'] > div[class*='col-']:last-child {
-  padding-right: 0;
-}
+
 @media all and (max-width: 767px) {
   .col-xs-6:nth-child(odd) {
     padding-right: 7.5px;
