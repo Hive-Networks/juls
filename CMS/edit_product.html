@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html  dir="rtl" id="root" lang="he">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=""/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="csrf-token" content="ix3gEXtm1B411iQvWNJ6gKuVvHGuHtrpopOcmd6v"/>
+
+
+<!-- <base href="http://lynx.style/boutiqa/public/"> -->
+
+
+<title></title>
+
+<!-- Fonts and Icons -->
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="http://fonts.googleapis.com/earlyaccess/opensanshebrew.css" rel="stylesheet">
+
+<!-- <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
+<!--bootstrap  --> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<!-- Css  -->
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="assets/css/dropzone/basic.css" rel="stylesheet" type="text/css" media="all" />
+<link href="assets/css/dropzone/dropzone.css" rel="stylesheet" type="text/css" media="all" />
+<link href="assets/css/bootstrap-tagsinput.css" rel="stylesheet" type="text/css" media="all" />
+<link href="assets/tw/ui/trumbowyg.min.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
+
+
+
+
+<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+
+</head>
+
+<body>
+
+<div class="jumper">
+<div></div>
+<div></div>
+<div></div>
+</div>
+
+<div class="dashboard"> 
+
+
+
+<div class="dashboard__left">
+
+
+
+
+<div ng-switch="table" class="table-data" >
+
+<!-- <div class="hamburger">
+<input type="checkbox" ng-model="isMobileNavOpen" id="navi_toggle" class="hamburger__checkbox">
+<label for="navi_toggle" class="hamburger__btn">
+<span class="hamburger__icon">&nbsp;</span>
+</label>
+
+
+</div> -->
+
+
+
+<!-- ngSwitchWhen: language --><div class="table-data__container" >
+
+<h1 class="table-data__heading">
+עריכת מוצר
+</h1>
+
+
+
+
+<div style="background: white;padding: 2rem;"> 
+
+
+<div class="crud__form-container">
+<form class="crud__form remove_b-m ">
+
+
+<div class="crud__form-group">
+<input class="crud__input" id="productName" placeholder="שם המוצר" type="text" >
+</div>
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+<div class="crud__form-group">
+<input class="crud__input" id="shortDesc" placeholder="תיאור קצר" type="text" >
+</div>
+
+
+
+
+<div class="crud__form-group tags2">
+<input class="crud__input" id="priceBefore"  placeholder="מחיר קודם" type="text" >
+</div>
+
+
+<div class="crud__form-group tags1">
+<input class="crud__input" id="priceFinal" placeholder="מחיר אמיתי" type="text" >
+</div>
+
+
+
+<div class="crud__form-group tags1">
+        <input class="crud__input" id="stonesNum" placeholder="כמות יהלומים" type="text" >
+        </div>
+
+
+        <div class="crud__form-group">
+                <input class="crud__input" id="centralStone" placeholder="אבן מרכזית" type="text" >
+        
+                     
+                        </div>
+
+        <div class="crud__form-group tags1">
+                <input class="crud__input" id="stonesWeight" placeholder="משקל יהלומים" type="text" >
+                </div>
+
+
+                <div class="crud__form-group tags1">
+                        <input class="crud__input" id="stonesClarity" placeholder="ניקיון יהלומים" type="text" >
+                        </div>
+
+                        <div class="crud__form-group tags1">
+                                <input class="crud__input" id="stonesColor" placeholder="צבע יהלומים" type="text" >
+                                </div>
+
+
+
+</form>
+
+
+</div>              
+
+
+
+
+
+
+<h3 class="" style="padding-top: 3rem;">
+תיאור המוצר
+</h3>
+
+
+<div id="editor">
+</div>
+
+
+
+<div class="text-center">
+
+<button type="button" id="updateProduct" class="btn button--green btn-primary">שמור</button>
+<a href="index.html">  <button type="button" id="closeModal" class="btn button--red button--link text-white">ביטול</button> </a>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+</div><!-- end ngSwitchWhen: -->
+<!-- ngSwitchWhen: hotel -->
+<!-- ngSwitchWhen: poster -->
+<!-- ngSwitchWhen: area -->
+<!-- ngSwitchWhen: city -->
+<!-- ngSwitchWhen: feature -->
+<!-- ngSwitchWhen: tag -->
+<!-- ngSwitchWhen: file -->
+<!-- ngSwitchWhen: event -->
+<!-- ngSwitchWhen: NavMenu -->
+<!-- ngSwitchWhen: category -->
+<!-- ngSwitchWhen: input -->
+</div>
+
+</div>
+
+
+
+
+<div class="dashboard__right">
+        <div class="navigation"> 
+        
+        <div class="navigation__logo-container">
+        <a href="index.html"> <img src="../img/dc_white.png"  alt="Daka 90" class="navigation__logo-img"> </a>
+        </div>
+        
+        <nav class="navigation__nav">
+        <ul class="navigation__list">
+        
+        <li class="navigation__item">
+        <a class="navigation__link" href="products.html"> ניהול מוצרים </a> 
+        </li>
+        
+        <li class="navigation__item ng-scope" >
+        <a class="navigation__link" href="categories.html">ניהול קטגוריות</a>
+        </li>
+        
+        <li class="navigation__item ng-scope" >
+        <a class="navigation__link" href="cities.html">ניהול מבצעים</a>
+        </li>
+        
+        <li class="navigation__item ng-scope" >
+        <a class="navigation__link" href="files.html">ניהול מכירות</a>
+        </li>
+        
+        <li class="navigation__item ng-scope" >
+        <a class="navigation__link" href="features.html">ניהול לקוחות</a>
+        </li>
+        
+        <li class="navigation__item ng-scope" >
+        <a class="navigation__link" href="categories.html">ניהול קבצים</a>
+        </li>
+        
+        <li class="navigation__item ng-scope" >
+        <a class="navigation__link" href="tags.html">ניהול תוכן</a>
+        </li>
+        
+        
+        
+        </ul>
+        </nav>
+        
+        
+        </div>
+        
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="assets/js/plugins/dropzone.js"></script>
+<script src="assets/js/plugins/typeahead.bundle.js"></script>
+
+<script src="assets/js/plugins/bootstrap-tagsinput.js"></script>
+
+<script src="assets/js/general.js"></script>
+<script src="assets/js/controllers/edit_product.js"></script>
+<script src="assets/js/plugins/dentist.js"> </script>
+<script src="assets/tw/trumbowyg.min.js"></script>
+<script type="text/javascript" src="assets/tw/langs/he.min.js"></script>
+
+</body>
+</html>
