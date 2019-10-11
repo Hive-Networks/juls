@@ -818,3 +818,8 @@ top:0px;
   background: url('../img/engagment_bg.jpg') no-repeat;
   background-size: cover;
 }
+
+
+.bg-cover {
+  background-size: cover !important;
+}

@@ -4593,7 +4593,7 @@ p.lead img {
 .imagebg h4,
 .imagebg h5,
 .imagebg h6 {
-  position: relative;
+  /* position: relative; */
 }
 .imagebg:not(.image--light) span {
   color: #fff;
@@ -4756,9 +4756,9 @@ section.parallax .row .background-image-holder {
   padding-top: 8px;
 }
 @media all and (min-width: 990px) {
-  .menu-horizontal li:not(:last-child) {
+  /* .menu-horizontal li:not(:last-child) {
     margin-right: 1.23809524em;
-  }
+  } */
   .bar__module:not(:only-child) .menu-horizontal {
     top: 0;
   }
