@@ -2017,7 +2017,7 @@ section.slider .flickity-page-dots {
 .flickity-prev-next-button:before {
   font-family: 'stack-interface';
   content: "\e80c";
-  font-size: 1em;
+  font-size: 30px;
   font-weight: normal;
 }
 .flickity-prev-next-button.previous:before {
@@ -3277,6 +3277,7 @@ form[action*='list-manage.com'] .small-meta {
   .bar.pos-fixed {
     position: fixed;
     top: 0;
+    left: 0;
     animation: fadeInDown 0.3s ease-out forwards;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
@@ -4074,7 +4075,7 @@ blockquote > p {
 }
 h4,
 .h4 {
-  margin-bottom: 1.36842105263158em;
+  /* margin-bottom: 1.36842105263158em; */
   font-weight: 400;
 }
 h4.inline-block + .h4.inline-block:not(.typed-text),
@@ -5843,6 +5844,7 @@ p .material-icons:first-child {
   background: #252525;
   text-align: center;
   cursor: pointer;
+
 }
 .tooltip .tooltip__anchor {
   color: #fff;
@@ -5851,12 +5853,14 @@ p .material-icons:first-child {
   position: absolute;
   top: -5px;
   left: 6px;
+  font-family: 'Rubik';
+  direction: rtl;
 }
 .tooltip .tooltip__text {
   transition: 0.2s ease;
   -webkit-transition: 0.2s ease;
   -moz-transition: 0.2s ease;
-  text-align: left;
+  text-align: right;
   z-index: 10;
   position: absolute;
   width: 280px;
@@ -5895,12 +5899,13 @@ p .material-icons:first-child {
   padding: 2px 12px;
   pointer-events: none;
   white-space: nowrap;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 18px;
   font-weight: 600;
   border-radius: 2px;
   z-index: 2;
-  font-family: 'Open Sans';
+  font-family: 'Rubik';
+  direction: rtl;
 }
 [data-tooltip]:not(:hover):after {
   opacity: 0;
@@ -8017,7 +8022,7 @@ input[type="image"] {
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;
   border-radius: 0;
-  background: #252525;
+  /* background: #252525; */
   width: 2.78571429em;
   height: 5.57142857em;
 }
@@ -8025,7 +8030,7 @@ input[type="image"] {
   opacity: .5;
 }
 .flickity-prev-next-button:hover {
-  background: #252525;
+  /* background: #252525; */
 }
 .flickity-prev-next-button.previous {
   left: 0;
@@ -8034,7 +8039,7 @@ input[type="image"] {
   right: 0;
 }
 .flickity-prev-next-button:before {
-  color: #fff;
+  color: #000;
 }
 .slider.slider--inline-arrows .flickity-prev-next-button {
   background: none;
@@ -9048,7 +9053,7 @@ section.unpad > article .imagebg + div {
   margin-bottom: 0.92857143em;
 }
 .product img {
-  margin-bottom: 0.92857143em;
+  /* margin-bottom: 0.92857143em; */
   transition: 0.3s ease;
   -webkit-transition: 0.3s ease;
   -moz-transition: 0.3s ease;

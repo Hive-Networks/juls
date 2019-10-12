@@ -750,6 +750,10 @@ top:0px;
 }
 
 
+.juls-brown-text {
+  color: #b1a399;
+}
+
 .bb-1 {
   border-bottom: 1px solid #e4e4e4;
 }
@@ -801,7 +805,7 @@ top:0px;
 
 .position-promo {
   position: absolute;
-  bottom: -15px;
+  bottom: 10px;
   left: 15px;
 }
 
@@ -822,4 +826,30 @@ top:0px;
 
 .bg-cover {
   background-size: cover !important;
+}
+
+
+.circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+
+.circles {
+  position: relative;
+top: -30px;
+
+}
+
+.white-gold-bg {
+  background: #d6d6d6;
+}
+
+.rose-gold-bg {
+  background: #e5b951;
+}
+
+
+.gold-bg {
+  background: #ed7973;
 }
